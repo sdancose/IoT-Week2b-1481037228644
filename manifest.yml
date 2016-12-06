@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Week2b
+  host: IoT-Week2b
+  disk_quota: 1024M
+  services:
+  - IoT-Week2b-cloudantNoSQLDB
+  - IoT-Week2b-iotf-service
